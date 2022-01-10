@@ -1,9 +1,9 @@
 #################### Banner #####################
 banner:
   enable : true
-  title : "Virginia Tech Animal Data Sciences"
+  title : "Labs of Animal Data Sciences"
   content : "Solving the problems of today to see a tomorrow worth living and a past worth remembering."
-  image : "images/hero-image/hero-slider-01.jpg"
+  image : "images/homepage.jpg"
   button:
     enable : false
     label : "tt WE DO"
@@ -60,7 +60,7 @@ contact:
   enable : true
   section : "CONTACT US"
   title : "reach us"
-  image : "images/map-bg.jpg"
+  image : "images/LR_building.jpg"
   content : "contact information"
 
   
