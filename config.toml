@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://github.com/vt-ads/vt-ads.github.io"
 title = "OMEGA"
 theme = "omega"
 # google analytics
