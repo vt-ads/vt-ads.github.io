@@ -24,14 +24,8 @@ weight = 2
 [[menu.main]]
 name = "PI"
 pre = "#"
-url = "product"
+url = "products"
 weight = 3
-
-[[menu.main]]
-name = "Career"
-pre = ""
-url = "career"
-weight = 4
 
 [[menu.main]]
 name = "Contact"
@@ -43,28 +37,16 @@ weight = 5
 #################### default parameters ################################
 [params]
 logo = "images/logo_vtads.png"
-logo_width = "220px"
+logo_width = "320px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-contact_info = "1001 Brickell bay <br>Dr. Miami, <br>FL 33131"
+contact_info = "Litton Reaves Hall <br>175 W Campus Dr, <br>Virginia Tech <br> Blacksburg, Virginia 24061"
+
 # Preloader
 preloader = true
-# google map
-[params.map]
-enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"
-map_center_lat = "25.773606"
-map_center_lng = "-80.732655"
-map_position_lat = "25.7635916"
-map_position_lng = "-80.1937595"
-map_marker = "images/map-marker.png"
 
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
 
 ############################# social site ########################
 [[params.social]]

@@ -56,7 +56,7 @@
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="/">
             
-            <img class="img-fluid" width="220px" src="images/logo_vtads.png" alt="Animal Data Sciences">
+            <img class="img-fluid" width="320px" src="images/logo_vtads.png" alt="Animal Data Sciences">
             
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
@@ -80,12 +80,7 @@
               
               <li class="nav-item">
                 <a class="nav-link page-scroll"
-                  href="#product">PI</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link page-scroll"
-                  href="career">Career</a>
+                  href="#products">PI</a>
               </li>
               
               <li class="nav-item">
@@ -116,7 +111,7 @@
             <div class="content">
               <h2>
                 <span class="rev">
-                  Advancement is Virginia Tech
+                  Virginia Tech Animal Data Sciences
                 </span>
               </h2>
               <h3>Solving the problems of today to see a tomorrow worth living and a past worth remembering.</h3>
@@ -141,7 +136,7 @@
 
 
 
-<section class="vision">
+<section class="vision" id="vision">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -268,13 +263,11 @@
   </div>
   <div class="map-div">
     
-    <div id="map" data-center-lat="25.773606" data-center-lng="-80.732655" data-position-lat="25.7635916" data-position-lng="-80.1937595" data-marker="images/map-marker.png" data-name="Animal Data Sciences"></div>
-    
     <div class="office">
       <div class="contents">
         <img src="images/map-bg.jpg" alt="office">
         <div class="address">
-          <h2>1001 Brickell bay <br>Dr. Miami, <br>FL 33131</h2>
+          <h2>Litton Reaves Hall <br>175 W Campus Dr, <br>Virginia Tech <br> Blacksburg, Virginia 24061</h2>
           <ul class="social-list list-inline">
             
             <li class="list-inline-item">
@@ -320,54 +313,12 @@
 
 <!-- Google Map API -->
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
-
 
 <!-- Main Script -->
 
 <script src="/js/script.min.js"></script>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm border ml-2">I Accept</span>
-</div>
-<script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires:  2 
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
-		}
-	})(jQuery);
-</script>
-
-
-<style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
-
-.cookie-box-hide {
-  display: none;
-}
-</style>
 </body>
 
 </html>
