@@ -1,7 +1,7 @@
 #################### Banner #####################
 banner:
   enable : true
-  title : "Advancement is Virginia Tech"
+  title : "Advancement is Omega"
   content : "Solving the problems of today to see a tomorrow worth living and a past worth remembering."
   image : "images/hero-image/hero-slider-01.jpg"
   button:

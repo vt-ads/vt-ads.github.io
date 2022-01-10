@@ -1,0 +1,2 @@
+github.com/gethugothemes/omega-hugo
+https://demo.gethugothemes.com/omega/
