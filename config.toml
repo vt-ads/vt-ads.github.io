@@ -36,7 +36,7 @@ weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/logo_vtads.png"
+logo = "images/logo_vtads_banner.png"
 logo_width = "320px"
 # Meta data
 description = "This is meta description"
