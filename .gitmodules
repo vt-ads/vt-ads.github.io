@@ -1,0 +1,3 @@
+[submodule "themes/omega"] 
+  path = themes/omega 
+  url = git://github.com/gethugothemes/omega-hugo.git
