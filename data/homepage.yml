@@ -5,13 +5,13 @@ banner:
   content : "Solving the problems of today to see a tomorrow worth living and a past worth remembering."
   image : "images/hero-image/hero-slider-01.jpg"
   button:
-    enable : true
+    enable : false
     label : "WHAT WE DO"
     link : "#products"
 
 #################### Mission #####################
 mission:
-  enable : true
+  enable : false
   title : "Propel Advancement"
   section : "MISSION"
   content : "Introducing the world’s first Advancement Company. As we enter the dawn of the digital age a significant leap must be made to propel the world into the age of advancement."
@@ -22,43 +22,38 @@ mission:
 #################### Vission #####################
 vision:
   enable : true
-  section : "VISION"
+  section : "PROJECTS"
   vision_item:
-  - title : "People First"
-    image : "images/vision/vision-01.jpg"
+  - title : "Virtual Tags"
+    image : "images/projects/vtag.png"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
     
-  - title : "Employee Culture"
-    image : "images/vision/vision-02.jpg"
+  - title : "Project II"
+    image : "images/projects/vision-02.jpg"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
     
-  - title : "The Omega Way"
-    image : "images/vision/vision-03.jpg"
+  - title : "Project III"
+    image : "images/projects/vision-03.jpg"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
 
 
 #################### product ####################
 product:
   enable : true
-  section : "Products"
-  title : "Some Of Our Best Products"
-  content : "See the innovation that has come through the Rio way. As an advancement company, the goal is to continuously find areas to help business push forward. Below you can find the first product available to help you do so."
+  section : "FACULTY"
+  title : "Meet the PIs"
+  content : "hello hello hello hello hello hello hello hello"
   product_item:
-  - title : "Ecosystem"
-    image : "images/product/product-03.jpg"
-    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
+  - title : "Gota Morota"
+    image : "images/pi/gota.jpg"
+    content : "Link to Gota's website"
+    project_url : "http://morotalab.org/"
     
-  - title : "Objects"
-    image : "images/product/product-02.jpg"
-    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
-    
-  - title : "Publisher"
-    image : "images/product/product-03.jpg"
-    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
-
+  - title : "James Chen"
+    image : "images/pi/james.png"
+    content : "Link to James's website"
+    project_url : "https://poissonfish.github.io"
+  
 
 ###################### Contact ####################
 contact:
@@ -66,12 +61,12 @@ contact:
   section : "CONTACT US"
   title : "reach us"
   image : "images/map-bg.jpg"
-  content : "The dawn of the digital age and the need for a significant leap forward is here. We believe that every business has the opportunity to move into this new age with the right mindset. Contact us today to begin understanding how Omega can propel your business."
+  content : "contact information"
 
   
 ################### call to action #################
 call_to_action:
-  enable : true
+  enable : false
   title : "Join the Omega family. <br>Click below to view the career opportunities we have for you."
   button_label : "Apply Now"
   button_link : "career"
