@@ -1,7 +1,7 @@
 #################### Banner #####################
 banner:
   enable : true
-  title : "Labs of Animal Data Sciences"
+  title : "The Lab of Animal Data Sciences"
   content : "Solving the problems of today to see a tomorrow worth living and a past worth remembering."
   image : "images/homepage.jpg"
   button:
