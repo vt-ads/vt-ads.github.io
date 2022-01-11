@@ -47,7 +47,6 @@ contact_info = "Litton-Reaves Hall <br>175 W Campus Dr, <br>Virginia Tech <br> B
 # Preloader
 preloader = true
 
-
 ############################# social site ########################
 [[params.social]]
 title = "facebook"

@@ -9264,7 +9264,7 @@ li.fancybox-thumbs-loading {
 /*=== MEDIA QUERY ===*/
 @font-face {
   font-family: 'bebas_neue_regular';
-  src: url("../fonts/bebasneue_regular-webfont.woff2") format("woff2"), url("../fonts/bebasneue_regular-webfont.woff") format("woff"); }
+  src: url("../fonts/open-sans-v27-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v27-latin-regular.woff") format("woff"); }
 
 @font-face {
   font-family: 'butlerbold';
@@ -9278,8 +9278,8 @@ body {
 p {
   font-family: "bebas_neue_regular";
   color: #fff;
-  font-size: 16px;
-  letter-spacing: 1px; }
+  font-size: 20px;
+  letter-spacing: 1.5px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "butlerbold";
@@ -9820,7 +9820,7 @@ body {
   position: relative;
   z-index: 6; }
   .visions::before {
-    content: 'MADE THINGS';
+    content: 'Data Sciences';
     font-family: "bebas_neue_regular";
     position: absolute;
     top: 18%;
@@ -10313,8 +10313,8 @@ ul.social-list li a {
   padding: 50px 80px;
   background: #127c8d; }
   .job-list .block h2 {
-    margin-bottom: 60px;
-    font-size: 30px; }
+    margin-bottom: 40px;
+    font-size: 36px; }
   .job-list .block .job {
     padding: 50px 10px;
     border-top: 1px solid #d8dbdd;
@@ -10333,10 +10333,10 @@ ul.social-list li a {
           margin-bottom: 30px; } }
       .job-list .block .job .content h3 {
         margin-bottom: 15px;
-        font-size: 25px; }
+        font-size: 32px; }
       .job-list .block .job .content p {
-        font-size: 18px;
-        letter-spacing: 1px; }
+        font-size: 22px;
+        letter-spacing: 1.5px; }
     .job-list .block .job .apply-button {
       flex-basis: 40%;
       align-self: center;
@@ -10365,7 +10365,8 @@ ul.social-list li a {
     .jd-modal .modal-content .modal-body .block-2 .title {
       width: 30%; }
     .jd-modal .modal-content .modal-body .block-2 .details {
-      width: 70%; }
+      width: 70%;
+      text-align: justify; }
       .jd-modal .modal-content .modal-body .block-2 .details ul {
         padding-left: 0;
         margin: 0; }
