@@ -16,22 +16,34 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "Mission"
+pre = "#"
+url = "mission"
+weight = 2
+
+[[menu.main]]
 name = "Projects"
 pre = "#"
 url = "vision"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "PI"
 pre = "#"
 url = "products"
-weight = 3
+weight = 4
+
+[[menu.main]]
+name = "Career"
+pre = "#"
+url = "positions"
+weight = 5
 
 [[menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
-weight = 5
+weight = 6
 
 
 #################### default parameters ################################

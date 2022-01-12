@@ -9,6 +9,8 @@ banner:
     label : "tt WE DO"
     link : "#products"
 
+
+
 #################### Mission #####################
 mission:
   enable : true
@@ -18,24 +20,41 @@ mission:
   video_thumb: "images/video-thumb.jpg"
   video_id: "ResipmZmpDU"
 
+  funfacts_item:
+  - name : "Flexible hours"
+    icon : "fa-bicycle"
+    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
+    
+  - name : "Free Snacks"
+    icon : "fa-bell-o"
+    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
+    
+  - name : "Recreation"
+    icon : "fa-microchip"
+    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
+
+  - name : "Recreation"
+    icon : "fa-microchip"
+    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
 
 #################### Vision #####################
 vision:
+  title : Projects
   enable : true
-  section : "PROJECTS"
+  section : ""
   vision_item:
+
   - title : "Virtual Tags"
     image : "images/projects/vta.png"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
-    
+
   - title : "Project II"
     image : "images/projects/vision-02.jpg"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
-    
+
   - title : "Project III"
     image : "images/projects/vision-03.jpg"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
-
 
 #################### product ####################
 product:
@@ -66,66 +85,34 @@ gallery:
   - "images/gallery/gallery-03.png"
 
 
-########### funfacts ##########
-funfacts:
-  enable : true
-  title : "amenities for you to enjoy"
-  funfacts_item:
-  - name : "Flexible hours"
-    icon : "fa-bicycle"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
-    
-  - name : "Free Snacks"
-    icon : "fa-bell-o"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
-    
-  - name : "Recreation"
-    icon : "fa-microchip"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
-    
-  - name : "5 Working Days"
-    icon : "fa-plug"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
-  
-
 ########### Career ############
 career:
   enable : true
-  title : "Positions"
+  title : "Available Positions"
   job_item:
 
   - name : "MS PhD Position"
-    location : "Animal Behaviors, Phenomics, Computer Vision"
-    form_action : "#"
-    
-  - name : "DevOpaas Engineer"
-    location : "Hamburg, Germany"
+    focus : "Animal Behaviors, Phenomics, Computer Vision"
     form_action : "#"
     about : "Graduate research assistantship in animal phenomics and precision
 livestock farming is available with Dr. James Chen in the Department
 of Animal and Poultry Sciences at Virginia Polytechnic Institute and
 State University.
-
-Potential projects include, but are not limited to, the following: 1)
-setting up a computer vision system for data-driven body condition
-monitoring of dairy cows and 2) analyzing image data using machine
-learning.
-
-Candidates should have a B.S. or M.S. degree in quantitative
-disciplines (e.g., animal breeding, data science, statistical
-genetics, quantitative genetics, computer science, or bioinformatics)
-along with a strong background and interest in image processing.
-Experience in MATLAB or Python is an advantage.
-
+<br>
+Potential projects include, but are not limited to, the following: 1) setting up a computer vision system for data-driven body condition monitoring of dairy cows and 2) analyzing image data using machine learning.
+<br>
 A letter of interest in the position, C.V., and contact information
 for two references should be emailed to James Chen <niche@vt.edu>.
 Review of applications will begin immediately and continue until the
 position is filled. Informal inquiries are also welcome."
-    pre:
-    - "3+ years Development	experience in a startup environment"
+    required:
+    - "B.S. or M.S. degree in quantitative disciplines (e.g., animal breeding, data science, statistical genetics, quantitative genetics, computer science, or bioinformatics)"
     - "Strong knowledge of iOS, Android & Web Platforms"
     - "Dynamic presentatifon and communication skills"
     - "Self-motivation: You manage your own milestones, deadlines, and priorities"
+    preferred:
+    - "a strong background and interest in image processing"
+    - "Experience in MATLAB or Python is an advantage"
 
 
   - name : "DevOps Engineer"
@@ -141,8 +128,8 @@ position is filled. Informal inquiries are also welcome."
 ###################### Contact ####################
 contact:
   enable : true
-  section : "CONTACT US"
-  title : "reach us"
+  section : "CONTACT"
+  title : "Reach us"
   image : "images/LR_building.jpg"
   content : "contact information"
 
