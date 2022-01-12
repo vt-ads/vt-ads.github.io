@@ -3,7 +3,7 @@ baseURL = ""
 title = "Animal Data Sciences"
 theme = "omega"
 # google analytics
-googleAnalytics = "G-CQDCF0SNBN" # example : UA-123-45
+googleAnalytics = "G-7BKTTP9LFN" # example : UA-123-45
 [markup.goldmark.renderer]
 unsafe= true
 
