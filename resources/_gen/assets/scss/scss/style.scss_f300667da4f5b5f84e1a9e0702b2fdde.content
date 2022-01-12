@@ -9364,7 +9364,7 @@ body {
 
 .reveal-text {
   position: relative;
-  white-space: nowrap;
+  white-space: normal;
   animation-name: reveal-text;
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -9512,7 +9512,7 @@ body {
     overflow: hidden; }
     .hero-slider-wrapper .item .item-image {
       position: relative;
-      width: 70%;
+      width: 80%;
       margin-left: auto; }
       .hero-slider-wrapper .item .item-image img {
         width: 100%; }
@@ -9539,7 +9539,6 @@ body {
           top: 0; } }
       .hero-slider-wrapper .item .content h2 {
         font-weight: 600;
-        line-height: 110px;
         font-size: 80px;
         letter-spacing: 1px;
         line-height: 1;
@@ -10420,6 +10419,8 @@ ul.social-list li a {
           letter-spacing: 1px; }
           .jd-modal .modal-content .modal-body .block-2 .details ul li span {
             padding-right: 5px; }
+      .jd-modal .modal-content .modal-body .block-2 .details a:link {
+        color: white; }
   .jd-modal .modal-content .modal-body .form-control {
     margin-bottom: 20px;
     color: #fff;
