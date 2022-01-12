@@ -74,6 +74,29 @@ product:
     project_url : "https://poissonfish.github.io"
   
 
+########### Career ############
+career:
+  enable : true
+  title : "Join Us"
+  job_item:
+
+  - name : "PhD Position"
+    focus : "Animal Behaviors, Phenomics, Computer Vision"
+    form_action : "#"
+    about : "Graduate research assistantship in animal phenomics and precision
+livestock farming is available with Dr. James Chen in the Department
+of Animal and Poultry Sciences at Virginia Polytechnic Institute and
+State University. Potential projects include, but are not limited to, the following: 1) setting up a machine learning system for data-driven monitoring of dairy and beef cattle and 2) deploying deep learning framework to analyze multi-dimension data."
+    required:
+    - "B.S. or M.S. degree in animal sciecne or related fields"
+    - "Strong passion in learning data-driven solution for agricultural problems"
+    preferred:
+    - "Experienced in any programming language"
+    apply : "A letter of interest in the position, C.V., and contact information
+for two references should be emailed to James Chen (niche@vt.edu).
+Review of applications will begin immediately and continue until the
+position is filled. Informal inquiries are also welcome."
+
 
 ########### Gallery ##########
 gallery:
@@ -84,46 +107,6 @@ gallery:
   - "images/gallery/gallery-02.png"
   - "images/gallery/gallery-03.png"
 
-
-########### Career ############
-career:
-  enable : true
-  title : "Available Positions"
-  job_item:
-
-  - name : "MS PhD Position"
-    focus : "Animal Behaviors, Phenomics, Computer Vision"
-    form_action : "#"
-    about : "Graduate research assistantship in animal phenomics and precision
-livestock farming is available with Dr. James Chen in the Department
-of Animal and Poultry Sciences at Virginia Polytechnic Institute and
-State University.
-<br>
-Potential projects include, but are not limited to, the following: 1) setting up a computer vision system for data-driven body condition monitoring of dairy cows and 2) analyzing image data using machine learning.
-<br>
-A letter of interest in the position, C.V., and contact information
-for two references should be emailed to James Chen <niche@vt.edu>.
-Review of applications will begin immediately and continue until the
-position is filled. Informal inquiries are also welcome."
-    required:
-    - "B.S. or M.S. degree in quantitative disciplines (e.g., animal breeding, data science, statistical genetics, quantitative genetics, computer science, or bioinformatics)"
-    - "Strong knowledge of iOS, Android & Web Platforms"
-    - "Dynamic presentatifon and communication skills"
-    - "Self-motivation: You manage your own milestones, deadlines, and priorities"
-    preferred:
-    - "a strong background and interest in image processing"
-    - "Experience in MATLAB or Python is an advantage"
-
-
-  - name : "DevOps Engineer"
-    location : "Hamburg, Germany"
-    form_action : "#"
-    about : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
-    experiences:
-    - "3+ years Development	experience in a startup environment"
-    - "Strong knowledge of iOS, Android & Web Platforms"
-    - "Dynamic presentation and communication skills"
-    - "Self-motivation: You manage your own milestones, deadlines, and priorities"
 
 ###################### Contact ####################
 contact:
