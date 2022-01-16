@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = ""
 title = "Animal Data Sciences"
-theme = "omega"
+theme = "omega_ads"
 # google analytics
 googleAnalytics = "G-7BKTTP9LFN" # example : UA-123-45
 [markup.goldmark.renderer]

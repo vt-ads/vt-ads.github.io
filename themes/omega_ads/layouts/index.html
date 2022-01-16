@@ -1,0 +1,352 @@
+{{ define "main" }}
+
+{{ if site.Data.homepage.banner.enable }}
+{{ with site.Data.homepage.banner }}
+<section class="hero-slider">
+  <div class="container-fluid p-0 m-0">
+    <div class="row m-0">
+      <div class="col-12 p-0 ml-auto">
+        <div class="hero-slider-wrapper">
+          <div class="item">
+            <div class="item-image image-reveal" style="animation-delay: 2s;">
+              <img src="{{ .image | absURL }}" alt="slider-image">
+            </div>
+            <div class="content">
+              <h2>
+                {{.title | markdownify}}
+                <!-- <span class="rev">
+                  {{.title | markdownify}}
+                </span> -->
+              </h2>
+              <h3 >{{ .content | markdownify }}</h3>
+              {{ if .button.enable }}
+              {{ with .button }}
+              <a href="{{ .link | absURL }}" class="hero-btn btn page-scroll">{{.label}}</a>
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <div class="scroll">
+          <h6> </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.mission.enable }}
+{{ with site.Data.homepage.mission }}
+<section class="mission" id="mission">
+    <div class="bg">
+        <img src="{{`images/section-bg.jpg` | absURL}}" class="img-fluid" alt="section-bg">
+    </div>
+    <div class="right-shape">
+        <img src="{{`images/right-shape.png` | absURL}}" class="img-fluid" alt="right-shape">
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <span>{{.section}}</span>
+                </div>
+
+                <div class="mission-content">
+                    <h2><span class="rev">{{ .title | markdownify}}</span></h2>
+                    <p>{{ .content | markdownify }}</p>
+
+                    <div class="row">
+                        {{ range .funfacts_item }}
+                        <div class="col-lg-5 col-md-6">
+                            <div class="fun-fact">
+                                <!-- Icon -->
+                                <i class="fa {{.icon}}"></i>
+                                <h3>{{ .name }}</h3>
+                                <p>{{ .content | markdownify }}</p>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+{{ if site.Data.homepage.vision.enable }}
+{{ with site.Data.homepage.vision }}
+<section class="vision" id="vision">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2><span class="rev">{{ .title | markdownify}}</span></h2>
+                <div class="visions">
+                    {{ range .vision_item }}
+                    <div class="vision-item">
+                        <div class="image image-reveal">
+                            <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
+                        </div>
+                        <div class="text-content">
+                            <h3>{{ .title | markdownify }}</h3>
+                            <p>{{ .content | markdownify}}</p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.product.enable }}
+{{ with site.Data.homepage.product }}
+<section class="products" id="products">
+  <div class="bg">
+    <img src="{{`images/section-bg-2.jpg` | absURL}}" class="img-fluid" alt="section-bg">
+  </div>
+  <div class="left-shape">
+    <img src="{{`images/left-shape.png` | absURL}}" class="img-fluid" alt="left-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{.section | markdownify }}</span>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="text-block">
+          <h2><span class="rev">{{ .title | markdownify }}</span>
+          </h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row m-0">
+      <div class="col-lg-10 ml-auto p-0">
+        <div class="product-slider-wrapper">
+          {{ range .product_item }}
+          <div class="product-item">
+            <a href="{{ .project_url | absURL }}" target="_blank">
+                <img src="{{ .image | absURL }}" alt="product-image">
+            </a>
+            <a href="{{ .project_url | absURL }}" target="_blank">
+                <div class="overlay">
+                    <div class="content">
+                        <h5>{{ .title | markdownify }}</h5>
+                        <p>{{ .content | markdownify }}</p>
+                    </div>
+                </div>
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+<!--===============================
+=            Job lists            =
+================================-->
+{{ if site.Data.homepage.career.enable }}
+{{ with site.Data.homepage.career }}
+<section class="job-list section pt-0" id="positions">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-10 m-auto">
+				<div class="block">
+					<div class="title text-center">
+						<h2>{{ .title | markdownify }}</h2>
+					</div>
+					<!-- Job List -->
+					{{ range .job_item }}
+					<div class="job">
+						<div class="content">
+							<!-- Job Title -->
+							<h3>{{ .name }}</h3>
+							<!-- Location -->
+							<p>{{ .focus | markdownify }}</p>
+						</div>
+						<!-- Action Button -->
+						<div class="apply-button">
+							<a href="#" class="apply-btn" data-toggle="modal" data-target="#{{ .name | urlize }}">View
+								Details</a>
+							<!-- Modal -->
+							<div class="modal fade jd-modal" id="{{ .name | urlize }}" tabindex="-1">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h3 class="modal-title">{{ .name }}</h3>
+											<button type="button" class="close" data-dismiss="modal">
+												<span>&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<!-- Location -->
+											<div class="block-2">
+												<div class="title">
+													<p>Focus</p>
+												</div>
+												<div class="details">
+													<p>{{ .focus | markdownify }}</p>
+												</div>
+											</div>
+											<!-- Description -->
+											<div class="block-2">
+												<div class="title">
+													<p>Description</p>
+												</div>
+												<div class="details">
+													<p>{{ .about | markdownify }}</p>
+												</div>
+											</div>
+											<!-- Required -->
+											<div class="block-2">
+												<div class="title">
+													<p>Required<br>Qualifications</p>
+												</div>
+												<div class="details">
+													<ul>
+														{{ range .required }}
+														<p><span class="fa fa-check"></span>&ensp;{{ . | markdownify }}</p>
+														{{ end }}
+													</ul>
+												</div>
+											</div>
+											<!-- Preferred -->
+											<div class="block-2">
+												<div class="title">
+													<p>Preferred<br>Qualifications</p>
+												</div>
+												<div class="details">
+													<ul>
+														{{ range .preferred }}
+														<p><span class="fa fa-check"></span>&ensp;{{ . | markdownify }}</p>
+														{{ end }}
+													</ul>
+												</div>
+											</div>
+											<!-- Apply -->
+											<div class="block-2">
+												<div class="title">
+													<p>How to<br>Apply</p>
+												</div>
+												<div class="details">
+													<p>{{ .apply | markdownify }}</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+
+<!--====  End of Job lists  ====-->
+
+
+<!--=============================
+=            Gallery            =
+==============================-->
+{{ if site.Data.homepage.gallery.enable }}
+{{ with site.Data.homepage.gallery }}
+<section class="gallery">
+	<div class="container-fluid p-0">
+		<div class="row no-gutters">
+			{{ range .images }}
+			<div class="col-md-4">
+				<div class="image image-reveal">
+					<img data-fancybox="gallery" href="{{ . |absURL }}" class="img-fluid"
+						src="{{ . |absURL }}" alt="">
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}
+<!--====  End of Gallery  ====-->
+
+{{ if site.Data.homepage.contact.enable }}
+{{ with site.Data.homepage.contact }}
+<div class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{ .section | markdownify }}</span>
+        </div>
+      </div>
+      <div class="col-lg-7 ml-auto">
+        <div class="text-block">
+          <h2><span class="rev">{{ .title | markdownify }}</span></h2>
+          <p>{{.content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map-div">
+    {{ with site.Params.map }}
+    <div id="map" data-center-lat="{{.map_center_lat}}" data-center-lng="{{.map_center_lng}}" data-position-lat="{{.map_position_lat}}" data-position-lng="{{.map_position_lng}}" data-marker="{{.map_marker | absURL }}" data-name="{{site.Title}}"></div>
+    {{ end }}
+    <div class="office">
+      <div class="contents">
+        <img src="{{ .image |absURL}}" alt="office">
+        <div class="address">
+          <h2>{{ site.Params.contact_info | markdownify}}</h2>
+          <ul class="social-list list-inline">
+            {{ range site.Params.social }}
+            <li class="list-inline-item">
+              <a href="{{ .link | safeURL }}" target="_blank">
+                <i class="fa {{ .icon }}"></i>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ end }}
+
+{{ if site.Data.homepage.call_to_action.enable }}
+{{ with site.Data.homepage.call_to_action }}
+<footer class="footer">
+	<div class="call-to-action text-center">
+		<h2>{{ .title | markdownify }}</h2>
+		<a href="{{.button_link | absURL }}">{{.button_label}}</a>
+	</div>
+</footer>
+{{end}}
+{{end}}
+
+{{ end }}
