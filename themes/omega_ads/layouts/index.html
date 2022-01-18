@@ -193,76 +193,9 @@
 						</div>
 						<!-- Action Button -->
 						<div class="apply-button">
-							<a href="#" class="apply-btn" data-toggle="modal" data-target="#{{ .name | urlize }}">View
-								Details</a>
-							<!-- Modal -->
-							<div class="modal fade jd-modal" id="{{ .name | urlize }}" tabindex="-1">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h3 class="modal-title">{{ .name }}</h3>
-											<button type="button" class="close" data-dismiss="modal">
-												<span>&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											<!-- Location -->
-											<div class="block-2">
-												<div class="title">
-													<p>Focus</p>
-												</div>
-												<div class="details">
-													<p>{{ .focus | markdownify }}</p>
-												</div>
-											</div>
-											<!-- Description -->
-											<div class="block-2">
-												<div class="title">
-													<p>Description</p>
-												</div>
-												<div class="details">
-													<p>{{ .about | markdownify }}</p>
-												</div>
-											</div>
-											<!-- Required -->
-											<div class="block-2">
-												<div class="title">
-													<p>Required<br>Qualifications</p>
-												</div>
-												<div class="details">
-													<ul>
-														{{ range .required }}
-														<p><span class="fa fa-check"></span>&ensp;{{ . | markdownify }}</p>
-														{{ end }}
-													</ul>
-												</div>
-											</div>
-											<!-- Preferred -->
-											<div class="block-2">
-												<div class="title">
-													<p>Preferred<br>Qualifications</p>
-												</div>
-												<div class="details">
-													<ul>
-														{{ range .preferred }}
-														<p><span class="fa fa-check"></span>&ensp;{{ . | markdownify }}</p>
-														{{ end }}
-													</ul>
-												</div>
-											</div>
-											<!-- Apply -->
-											<div class="block-2">
-												<div class="title">
-													<p>How to<br>Apply</p>
-												</div>
-												<div class="details">
-													<p>{{ .apply | markdownify }}</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <a href="{{ .url | absURL }}" class="apply-btn" target="_blank">
+                                View Details
+                            </a>
 						</div>
 					</div>
 					{{ end }}
