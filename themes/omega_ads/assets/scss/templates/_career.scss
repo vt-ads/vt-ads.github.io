@@ -76,7 +76,9 @@
 }
 
 .job-list{
-    margin-top: 200px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 99;
 	.block{
 		padding: 50px 80px;
 		background: lighten($color: $body-color, $amount: 10);

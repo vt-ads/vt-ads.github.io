@@ -1,12 +1,13 @@
 .products{
     padding: 100px 0;
+    // height: 100px;
     position: relative;
     @include tablet{
         padding: 70px 0;
     }
     .bg{
         position: absolute;
-        top: 12%;
+        top: 5%;
         right: 0;
         z-index: 2;
         @include desktop{
@@ -17,7 +18,8 @@
             content: '';
             height: 100%;
             width: 100%;
-            background: #0a0e52;
+            // -james- background: #0a0e52;
+            background: $black;
             opacity: .75;
         }
     }

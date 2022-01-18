@@ -33,10 +33,6 @@ mission:
     icon : "fa-microchip"
     content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
 
-  - name : "Recreation"
-    icon : "fa-microchip"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
-
 #################### Vision #####################
 vision:
   title : Projects
@@ -46,6 +42,7 @@ vision:
 
   - title : "Virtual Tags"
     image : "images/projects/vta.png"
+    URL   : "https://poissonfish.github.io"
     content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
 
   - title : "Project II"
@@ -103,9 +100,12 @@ gallery:
   enable : true
   section : "Gallery"
   images:
-  - "images/gallery/gallery-01.png"
-  - "images/gallery/gallery-02.png"
-  - "images/gallery/gallery-03.png"
+  - "images/life/tennis.jpg"
+  - "images/life/group_1.jpg"
+  - "images/life/group_2.jpg"
+  - "images/life/SabrinaBirthday_1.jpg"
+  - "images/life/group_3.jpg"
+  - "images/life/Kenan.png"
 
 
 ###################### Contact ####################
@@ -114,7 +114,7 @@ contact:
   section : "CONTACT"
   title : "Reach us"
   image : "images/LR_building.jpg"
-  content : "contact information"
+  content : ""
 
   
 ################### call to action #################

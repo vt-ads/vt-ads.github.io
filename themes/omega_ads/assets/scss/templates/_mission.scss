@@ -6,15 +6,17 @@
     }
     .bg{
         position: absolute;
-        top: 22%;
+        top: 5%; // james
         z-index: 2;
         &::before{
             position: absolute;
             content: '';
             height: 100%;
             width: 100%;
-            background: #0a0e52;
-            opacity: .75;
+            // - james - background: #0a0e52;
+            // background: #4b3b3b;
+            background: $black;
+            opacity: .85;
         }
         @include desktop {
             width: 80%;
