@@ -9658,7 +9658,7 @@ body {
       height: 100%;
       width: 100%;
       background: #000;
-      opacity: .85; }
+      opacity: .80; }
     @media (max-width: 991px) {
       .mission .bg {
         width: 80%; } }
@@ -9695,7 +9695,8 @@ body {
         .mission .section-title:before {
           content: none; } }
 .mission-content {
-  margin-left: 130px;
+  margin-left: 100px;
+  margin-bottom: -15%;
   position: relative;
   z-index: 2; }
   @media (max-width: 991px) {
@@ -9809,7 +9810,8 @@ body {
     margin-bottom: 42px;
     font-size: 60px;
     line-height: 65px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    z-index: 50; }
     .vision h2 span {
       clip-path: inset(0 100% 0 0);
       text-transform: capitalize; }
@@ -9858,7 +9860,9 @@ body {
           content: none; } }
 .visions {
   position: relative;
-  z-index: 6; }
+  z-index: 6;
+  top: -0%;
+  margin-bottom: -10%; }
   .visions::before {
     content: 'Data Sciences';
     font-family: "bebas_neue_regular";
@@ -9876,15 +9880,15 @@ body {
         display: none; } }
   .visions .vision-item {
     position: relative;
-    z-index: 3; }
+    z-index: 99; }
     .visions .vision-item:nth-child(1) {
-      transform: translateY(40px); }
+      transform: translateY(100px); }
       @media (max-width: 1200px) {
         .visions .vision-item:nth-child(1) {
           transform: translateY(0);
           margin-bottom: 30px; } }
     .visions .vision-item:nth-child(2) {
-      transform: translateX(552px); }
+      transform: translateX(580px); }
       @media (max-width: 1200px) {
         .visions .vision-item:nth-child(2) {
           transform: translateX(150px); } }
@@ -9892,14 +9896,14 @@ body {
         .visions .vision-item:nth-child(2) {
           transform: translateX(0); } }
     .visions .vision-item:nth-child(3) {
-      transform: translateY(-40px); }
+      transform: translateY(-100px); }
       @media (max-width: 1200px) {
         .visions .vision-item:nth-child(3) {
           transform: translateY(0);
           margin-top: 30px; } }
     .visions .vision-item .image {
       position: relative;
-      max-width: 400px;
+      max-width: 500px;
       overflow: hidden; }
       .visions .vision-item .image img {
         width: 100%; }
@@ -9909,6 +9913,8 @@ body {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.582);
+      padding: 20px;
       left: 12%; }
       .visions .vision-item .text-content h3 {
         margin-bottom: 20px;
@@ -9921,6 +9927,9 @@ body {
         letter-spacing: 1px;
         font-weight: 600;
         max-width: 420px; }
+    .visions .vision-item:hover img {
+      transform: scale(1.2);
+      transition: all .3s ease; }
 
 .vision-slider-wrapper .slick-slide {
   outline: 0; }
@@ -9971,7 +9980,7 @@ body {
       height: 100%;
       width: 100%;
       background: #000;
-      opacity: .75; }
+      opacity: .5; }
   .products .left-shape {
     position: absolute;
     top: -12%; }
@@ -10063,11 +10072,11 @@ body {
     position: relative;
     max-width: 380px;
     margin: 0 15px;
-    transition: all .3s ease-in-out;
+    transition: all 1s ease-in-out;
     overflow: hidden;
     cursor: pointer; }
     .product-slider-wrapper .product-item img {
-      transition: all .3s ease-in-out;
+      transition: all 1s ease-in-out;
       width: 100%; }
     .product-slider-wrapper .product-item .overlay {
       position: absolute;
@@ -10081,7 +10090,7 @@ body {
       .product-slider-wrapper .product-item .overlay .content {
         display: flex;
         flex-direction: column;
-        background: #fff;
+        background: #ffffffc7;
         padding: 0 30px;
         height: calc(100% - 60px);
         justify-content: center; }
@@ -10392,6 +10401,10 @@ ul.social-list li a {
             width: 100%;
             flex-grow: 1;
             text-align: center; } }
+        .job-list .block .job .apply-button a:hover {
+          background-color: #ff5233;
+          transition: all .3s ease; }
+
 .jd-modal .close {
   color: #fff;
   text-shadow: none;

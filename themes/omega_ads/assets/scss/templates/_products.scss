@@ -20,7 +20,7 @@
             width: 100%;
             // -james- background: #0a0e52;
             background: $black;
-            opacity: .75;
+            opacity: .5;
         }
     }
     .left-shape{
@@ -127,11 +127,11 @@
         position: relative;
         max-width: 380px;
         margin: 0 15px;
-        transition: all .3s ease-in-out;
+        transition: all 1s ease-in-out;
         overflow: hidden;
         cursor: pointer;
         img{
-            transition: all .3s ease-in-out;
+            transition: all 1s ease-in-out;
             width: 100%;
         }
         .overlay{
@@ -143,7 +143,7 @@
             .content{
                 display: flex;
                 flex-direction: column;
-                background: $white;
+                background: #ffffffc7;
                 padding: 0 30px;
                 height: calc(100% - 60px);
                 justify-content: center;

@@ -94,17 +94,16 @@
                 <div class="visions">
                     {{ range .vision_item }}
                     <div class="vision-item">
-                        <div class="image image-reveal">
-                            <a href="{{ .URL | absURL }}">
-                                <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
-                            </a>
-                        </div>
-                        <div class="text-content">
-                            <a href="{{ .URL | absURL }}">
-                                <h3>{{ .title | markdownify }}</h3>
+                        <a href="{{ .URL | absURL }}" target="_blank">
+                            <!-- <div class="image image-reveal"> -->
+                            <div class="image">
+                            <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
+                            </div>
+                            <div class="text-content">
+                                <h3>{{ .title | markdownify}}</h3>
                                 <p>{{ .content | markdownify}}</p>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     {{ end }}
                 </div>

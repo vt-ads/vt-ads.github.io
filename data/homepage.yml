@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "The Lab of Animal Data Sciences"
-  content : "Solving the problems of today to see a tomorrow worth living and a past worth remembering."
+  content : "Leveraging data sciences and technology to support precision livestock farming and animal breeding"
   image : "images/homepage.jpg"
   button:
     enable : false
@@ -10,28 +10,25 @@ banner:
     link : "#products"
 
 
-
 #################### Mission #####################
 mission:
   enable : true
-  title : "Our Mission"
+  title : "Research Focuses"
   section : "MISSION"
-  content : "Introducing the world’s first Advancement Company. As we enter the dawn of the digital age a significant leap must be made to propel the world into the age of advancement."
-  video_thumb: "images/video-thumb.jpg"
-  video_id: "ResipmZmpDU"
+  content : "Providing computational solutions to modern farming challenges that limit production efficiencies and sustaniable practices."
 
   funfacts_item:
-  - name : "Flexible hours"
-    icon : "fa-bicycle"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
+  - name : "Phenomics"
+    icon : "fa-video-camera"
+    content : "Developing computational framework to extract information from video and sensor data"
     
-  - name : "Free Snacks"
-    icon : "fa-bell-o"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
+  - name : "Genomics"
+    icon : "fa-bar-chart"
+    content : "Integrating phenomics-derived traits into genomics selection for better farming efficiency"
     
-  - name : "Recreation"
-    icon : "fa-microchip"
-    content : "Tight schedule, tell us so we can tailor the schedule that fits your needs."
+  - name : "Software"
+    icon : "fa-laptop"
+    content : "The research results will be delivered through open-source software and friendly interfaces"
 
 #################### Vision #####################
 vision:
@@ -40,25 +37,27 @@ vision:
   section : ""
   vision_item:
 
-  - title : "Virtual Tags"
-    image : "images/projects/vta.png"
-    URL   : "https://poissonfish.github.io"
-    content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+  - title : "Virtual Tag"
+    image : "images/projects/vtag.png"
+    URL   : "https://github.com/Poissonfish/vtag"
+    content : "An unsupervised approach to track pig positions using one top-view RGB camera"
 
-  - title : "Project II"
-    image : "images/projects/vision-02.jpg"
-    content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+  - title : "Forcasting Pig Body Weight"
+    image : "images/projects/rgbd.png"
+    URL   : "https://academic.oup.com/tas/article/5/1/txab006/6102880"
+    content : "Using RGB-D sensor-based imaging system coupled with the Python image-processing pipeline to provide an effective approach to predict the body weight of nonrestrained pigs."
 
-  - title : "Project III"
-    image : "images/projects/vision-03.jpg"
-    content : "I started with a vision of creating an atmosphere where people come first. <br>Paul Sanar Founder"
+  - title : "XSimV2"
+    image : "images/projects/xsim.png"
+    URL   : "https://reworkhow.github.io/XSim.jl/index.html"
+    content : "XSimV2 is a fast and user-friendly tool to simulate sequence data and complicated pedigree structures"
 
 #################### product ####################
 product:
   enable : true
   section : "FACULTY"
   title : "Meet the PIs"
-  content : "hello hello hello hello hello hello hello hello"
+  content : ""
   product_item:
   - title : "Gota Morota"
     image : "images/pi/gota.jpg"
@@ -77,24 +76,10 @@ career:
   title : "Join Us"
   job_item:
 
-  - name : "PhD Position"
-    focus : "Animal Behaviors, Phenomics, Computer Vision"
+  - name : "MS / PhD Position"
+    focus : "Animal Behavior, Phenomics, Computer Vision"
     form_action : "#"
     url : "ADS_Hiring.pdf"
-    about : "Graduate research assistantship in animal phenomics and precision
-livestock farming is available with Dr. James Chen in the Department
-of Animal and Poultry Sciences at Virginia Polytechnic Institute and
-State University. Potential projects include, but are not limited to, the following: 1) setting up a machine learning system for data-driven monitoring of dairy and beef cattle and 2) deploying deep learning framework to analyze multi-dimension data."
-    required:
-    - "B.S. or M.S. degree in animal sciecne or related fields"
-    - "Strong passion in learning data-driven solution for agricultural problems"
-    preferred:
-    - "Experienced in any programming language"
-    apply : "A letter of interest in the position, C.V., and contact information
-for two references should be emailed to James Chen (niche@vt.edu).
-Review of applications will begin immediately and continue until the
-position is filled. Informal inquiries are also welcome."
-
 
 ########### Gallery ##########
 gallery:

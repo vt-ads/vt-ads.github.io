@@ -121,6 +121,10 @@
 	    	        flex-grow: 1;
 			        text-align: center;
 			    }
+                a:hover {
+                    background-color: $vt_organge;
+                    transition: all .3s ease;
+                }
 			}
 		}
 	}

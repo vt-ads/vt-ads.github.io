@@ -16,7 +16,7 @@
             // - james - background: #0a0e52;
             // background: #4b3b3b;
             background: $black;
-            opacity: .85;
+            opacity: .80;
         }
         @include desktop {
             width: 80%;
@@ -60,7 +60,8 @@
     }
 }
 .mission-content{
-    margin-left: 130px;
+    margin-left: 100px;
+    margin-bottom: -15%;
     position: relative;
     z-index: 2;
     @include desktop{
