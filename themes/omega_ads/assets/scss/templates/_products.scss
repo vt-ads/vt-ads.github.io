@@ -70,7 +70,7 @@
             letter-spacing: 1px;
             span{
                 clip-path: inset(0 100% 0 0);
-                text-transform: capitalize;
+                text-transform: none;
             }
             @include desktop {
                 font-size: 50px;
@@ -104,6 +104,7 @@
                 line-height: 25px;
                 max-width: 100%;
             }
+
         }
     }
 }

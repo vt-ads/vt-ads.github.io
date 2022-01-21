@@ -60,7 +60,7 @@ product:
   content : ""
   product_item:
   - title : "Gota Morota"
-    image : "images/pi/gota.jpg"
+    image : "images/pi/gota_real.png"
     content : "Link to Gota's website"
     project_url : "http://morotalab.org/"
     

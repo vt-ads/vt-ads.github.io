@@ -9283,9 +9283,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "butlerbold";
-  color: #fff; }
-
-h1, h2, h3, h4, h5, h6 {
+  color: #fff;
   font-weight: 600; }
 
 label {
@@ -10023,7 +10021,7 @@ body {
       letter-spacing: 1px; }
       .products .text-block h2 span {
         clip-path: inset(0 100% 0 0);
-        text-transform: capitalize; }
+        text-transform: none; }
       @media (max-width: 991px) {
         .products .text-block h2 {
           font-size: 50px;
