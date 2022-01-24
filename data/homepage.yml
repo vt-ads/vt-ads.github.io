@@ -38,8 +38,8 @@ vision:
   vision_item:
 
   - title : "Virtual Tag"
-    image : "images/projects/vtag.gif"
-    # image : "images/projects/vtag.png"
+    # image : "images/projects/vtag.gif"
+    image : "images/projects/vtag.png"
     URL   : "https://github.com/Poissonfish/vtag"
     content : "An unsupervised approach to track pig positions using one top-view RGB camera"
 
