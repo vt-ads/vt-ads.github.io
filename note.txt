@@ -1,2 +1,5 @@
 github.com/gethugothemes/omega-hugo
 https://demo.gethugothemes.com/omega/
+
+# Tool to test website performance
+https://web.dev/measure/
