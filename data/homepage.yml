@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "The Lab of Animal Data Sciences"
   content : "Leveraging data sciences and technology to support precision livestock farming and animal breeding"
-  image : "images/homepage.jpg"
+  image : "images/background/homepage.jpg"
   button:
     enable : false
     label : "tt WE DO"
@@ -38,8 +38,8 @@ vision:
   vision_item:
 
   - title : "Virtual Tag"
-    # image : "images/projects/vtag.gif"
-    image : "images/projects/vtag.png"
+    image : "images/projects/vtag_a.gif"
+    # image : "images/projects/vtag.png"
     URL   : "https://github.com/Poissonfish/vtag"
     content : "An unsupervised approach to track pig positions using one top-view RGB camera"
 
@@ -92,7 +92,7 @@ gallery:
   - "images/life/group_2.jpg"
   - "images/life/SabrinaBirthday_1.jpg"
   - "images/life/group_3.jpg"
-  - "images/life/Kenan.png"
+  - "images/life/Kenan.jpg"
 
 
 ###################### Contact ####################
@@ -100,7 +100,7 @@ contact:
   enable : true
   section : "CONTACT"
   title : "Reach us"
-  image : "images/LR_building.jpg"
+  image : "images/background/LR_building.jpg"
   content : ""
 
   

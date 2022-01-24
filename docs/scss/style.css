@@ -9656,7 +9656,7 @@ body {
       height: 100%;
       width: 100%;
       background: #000;
-      opacity: .80; }
+      opacity: .85; }
     @media (max-width: 991px) {
       .mission .bg {
         width: 80%; } }
@@ -9959,19 +9959,15 @@ body {
     .vision-slider-wrapper .slick-prev {
       bottom: 0; } }
 .products {
-  padding: 100px 0;
-  position: relative; }
+  position: relative;
+  padding: 100px 0; }
   @media (max-width: 767px) {
     .products {
       padding: 70px 0; } }
   .products .bg {
     position: absolute;
     top: 5%;
-    right: 0;
     z-index: 2; }
-    @media (max-width: 991px) {
-      .products .bg {
-        width: 80%; } }
     .products .bg::before {
       position: absolute;
       content: '';
@@ -9979,6 +9975,9 @@ body {
       width: 100%;
       background: #000;
       opacity: .5; }
+    @media (max-width: 991px) {
+      .products .bg {
+        width: 80%; } }
   .products .left-shape {
     position: absolute;
     top: -12%; }
